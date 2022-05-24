@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AyudaSoporteFragment"
+    android:onClick="lanzaShowCaseView">
+
+    <TextView
+        android:id="@+id/titulo_inicio_ays"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:text="Mercados"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton_favoritos_ays"
+        android:layout_width="29dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:background="#F4F4F4"
+        android:src="@drawable/star"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_inicio_ays" />
+
+
+    <ImageView
+        android:id="@+id/btc_ays"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/btc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_favoritos_ays" />
+
+    <ImageView
+        android:id="@+id/eth_ays"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/eth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btc_ays" />
+
+    <ImageView
+        android:id="@+id/ltc_ays"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ltc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eth_ays" />
+
+    <ImageView
+        android:id="@+id/xrp_ays"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/xrp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ltc_ays" />
+
+    <ImageView
+        android:id="@+id/doge_ays"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/doge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xrp_ays" />
+
+    <ImageView
+        android:id="@+id/sol_ays"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/sol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doge_ays" />
+
+    <ImageView
+        android:id="@+id/shib_ays"
+        android:layout_width="319dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/shib"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sol_ays" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

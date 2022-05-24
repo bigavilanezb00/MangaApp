@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/options1Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Inglés (Estados Unidos)"/>
+
+    <item
+        android:id="@+id/options2Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Inglés (Reino Unido)" />
+
+    <item
+        android:id="@+id/options3Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Español (Argentina)" />
+
+    <item
+        android:id="@+id/options4Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Español (Mexico)" />
+
+    <item
+        android:id="@+id/options5Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Chino" />
+
+    <item
+        android:id="@+id/options6Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Japones" />
+</menu>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".PerfilFragment">
+
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:text="ID: "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dato_id"
+        android:layout_width="374dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="6dp"
+        android:text="1596570354"
+        android:textColor="#18A0B1"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/id"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:text="Nombre: "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id"/>
+
+    <TextView
+        android:id="@+id/dato_nombre"
+        android:layout_width="374dp"
+        android:layout_height="48dp"
+        android:text="Aldano"
+        android:textColor="#18A0B1"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/nombre"
+        app:layout_constraintTop_toBottomOf="@+id/dato_id"/>
+
+
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:text="Apellidos: "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+    <TextView
+        android:id="@+id/dato_apellidos"
+        android:layout_width="374dp"
+        android:layout_height="48dp"
+        android:text="Grijalva"
+        android:textColor="#18A0B1"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/apellidos"
+        app:layout_constraintTop_toBottomOf="@+id/dato_nombre"/>
+
+    <TextView
+        android:id="@+id/contraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="#F4F4F4"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:text="Contraseña: "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apellidos" />
+
+    <TextView
+        android:id="@+id/dato_contraseña"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:background="#F4F4F4"
+        android:gravity="center_vertical"
+        android:text="********"
+        android:textColor="#18A0B1"
+        app:layout_constraintStart_toEndOf="@+id/contraseña"
+        app:layout_constraintTop_toBottomOf="@+id/dato_apellidos" />
+
+    <TextView
+        android:id="@+id/foto"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:text="Foto de perfil: "
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contraseña" />
+
+    <TextView
+        android:id="@+id/dato_foto"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:drawableEnd="@drawable/foto_perfil_pequena"
+        android:paddingEnd="62dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/foto"
+        app:layout_constraintTop_toBottomOf="@+id/dato_contraseña" />
+
+    <TextView
+        android:id="@+id/union"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="#F4F4F4"
+        android:gravity="center_vertical"
+        android:paddingStart="10dp"
+        android:text="Registrado desde: "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
+
+    <TextView
+        android:id="@+id/dato_union"
+        android:layout_width="348dp"
+        android:layout_height="48dp"
+        android:background="#F4F4F4"
+        android:gravity="center_vertical"
+        android:text="23/10/2021"
+        android:textColor="#18A0B1"
+        app:layout_constraintStart_toEndOf="@+id/union"
+        app:layout_constraintTop_toBottomOf="@+id/dato_foto" />
+
+    <Button
+        android:id="@+id/boton_editar_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:width="319sp"
+        android:backgroundTint="#70C4CF"
+        android:text="Editar Información"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dato_union" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

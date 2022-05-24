@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/drawer1Fragment"
+        android:name="com.example.drawmenu.Drawer1Fragment"
+        android:label="fragment_drawer1"
+        tools:layout="@layout/fragment_drawer1" />
+    <fragment
+        android:id="@+id/drawer2Fragment"
+        android:name="com.example.drawmenu.Drawer2Fragment"
+        android:label="fragment_drawer2"
+        tools:layout="@layout/fragment_drawer2" />
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.drawmenu.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_BTCFragment"
+            app:destination="@id/BTCFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_ETHFragment"
+            app:destination="@id/ETHFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_favoritosFragment"
+            app:destination="@id/favoritosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.example.drawmenu.AjustesFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_ajustes" >
+        <action
+            android:id="@+id/action_ajustesFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="com.example.drawmenu.AcercaDeFragment"
+        android:label="fragment_acerca_de"
+        tools:layout="@layout/fragment_acerca_de" />
+    <fragment
+        android:id="@+id/ayudaSoporteFragment"
+        android:name="com.example.drawmenu.AyudaSoporteFragment"
+        android:label="fragment_ayuda_soporte"
+        tools:layout="@layout/fragment_ayuda_soporte" />
+    <fragment
+        android:id="@+id/comprarVenderFragment"
+        android:name="com.example.drawmenu.ComprarVenderFragment"
+        android:label="fragment_comprar_vender"
+        tools:layout="@layout/fragment_comprar_vender" >
+        <action
+            android:id="@+id/action_comprarVenderFragment_to_venderFragment"
+            app:destination="@id/venderFragment" />
+        <action
+            android:id="@+id/action_comprarVenderFragment_to_comprarFragment"
+            app:destination="@id/comprarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/billeteraFragment"
+        android:name="com.example.drawmenu.BilleteraFragment"
+        android:label="fragment_billetera"
+        tools:layout="@layout/fragment_billetera" >
+        <action
+            android:id="@+id/action_billeteraFragment_to_BTCFragment"
+            app:destination="@id/BTCFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/BTCFragment"
+        android:name="com.example.drawmenu.BTCFragment"
+        android:label="fragment_b_t_c"
+        tools:layout="@layout/fragment_b_t_c" />
+    <fragment
+        android:id="@+id/ETHFragment"
+        android:name="com.example.drawmenu.ETHFragment"
+        android:label="fragment_e_t_h"
+        tools:layout="@layout/fragment_e_t_h" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.drawmenu.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment_to_editarPerfilFragment"
+            app:destination="@id/editarPerfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarPerfilFragment"
+        android:name="com.example.drawmenu.EditarPerfilFragment"
+        android:label="fragment_editar_perfil"
+        tools:layout="@layout/fragment_editar_perfil" >
+        <action
+            android:id="@+id/action_editarPerfilFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comprarFragment"
+        android:name="com.example.drawmenu.ComprarFragment"
+        android:label="fragment_comprar"
+        tools:layout="@layout/fragment_comprar" />
+    <fragment
+        android:id="@+id/venderFragment"
+        android:name="com.example.drawmenu.VenderFragment"
+        android:label="fragment_vender"
+        tools:layout="@layout/fragment_vender" />
+    <fragment
+        android:id="@+id/favoritosFragment"
+        android:name="com.example.drawmenu.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+</navigation>

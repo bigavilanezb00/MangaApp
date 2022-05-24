@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EditarPerfilFragment">
+
+    <TextView
+        android:id="@+id/editnombre"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:textSize="17dp"
+        android:paddingStart="17dp"
+        android:text="Nombre: "
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputnombre"
+        android:layout_width="269sp"
+        android:layout_height="42dp"
+        android:layout_marginStart="17dp"
+        android:background="#F5F4F2"
+        android:hint="Aldano"
+        android:textSize="15dp"
+        android:inputType="text"
+        android:padding="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editnombre" />
+
+    <TextView
+        android:id="@+id/editapellidos"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="17dp"
+        android:text="Apellidos: "
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputnombre" />
+
+    <EditText
+        android:id="@+id/inputapellidos"
+        android:layout_width="269sp"
+        android:layout_height="42dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F4F2"
+        android:hint="Grijalva"
+        android:inputType="text"
+        android:padding="3dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editapellidos" />
+
+    <TextView
+        android:id="@+id/editcontraseña"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:paddingStart="17dp"
+        android:text="Contraseña: "
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputapellidos" />
+
+    <EditText
+        android:id="@+id/inputcontraseña"
+        android:layout_width="269sp"
+        android:layout_height="42dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:background="#F5F4F2"
+        android:hint="********"
+        android:inputType="text"
+        android:padding="3dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editcontraseña" />
+
+    <ImageView
+        android:id="@+id/ojocontra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/ojo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toEndOf="@+id/inputcontraseña"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editfotoperfil"
+        android:layout_width="130dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center_vertical"
+        android:paddingStart="17dp"
+        android:text="Foto de perfil: "
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputcontraseña" />
+
+    <ImageView
+        android:id="@+id/fotode_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:name="android.permission.CAMERA"
+        android:src="@drawable/foto_perfil"
+        app:layout_constraintStart_toEndOf="@+id/editfotoperfil"
+        app:layout_constraintTop_toBottomOf="@+id/inputcontraseña" />
+
+    <Button
+        android:id="@+id/boton_actualizar_perfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:width="319sp"
+        android:backgroundTint="#70C4CF"
+        android:text="Actualizar"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editfotoperfil" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

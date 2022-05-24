@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/inicioFragment"
+        android:icon="@drawable/house_icon"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/perfilFragment"
+        android:icon="@drawable/icono_perfil"
+        android:title="Perfil" />
+    <item
+        android:id="@+id/drawer1Fragment"
+        android:icon="@android:drawable/ic_secure"
+        android:title="Seguridad" />
+
+    <item
+        android:id="@+id/drawer2Fragment"
+        android:icon="@drawable/wallet_icon"
+        android:title="Métodos de pago" />
+
+    <item
+        android:id="@+id/ajustesFragment"
+        android:icon="@drawable/ajustes_icon"
+        android:title="Ajustes" />
+
+    <item
+        android:id="@+id/acercaDeFragment"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Sobre nosotros" />
+
+    <item
+        android:id="@+id/ayudaSoporteFragment"
+        android:icon="@android:drawable/stat_sys_headset"
+        android:title="Ayuda y Soporte" />
+</menu>

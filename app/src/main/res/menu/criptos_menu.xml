@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/options1Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="BTC (Bitcoin)"/>
+
+    <item
+        android:id="@+id/options2Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="ETH (Ethereum)" />
+
+    <item
+        android:id="@+id/options3Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="LTC (Litecoin)" />
+
+    <item
+        android:id="@+id/options4Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="XRP (Ripple)" />
+
+    <item
+        android:id="@+id/options5Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="DOGE (Dogecoin)" />
+
+    <item
+        android:id="@+id/options6Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="SOL (Solana)" />
+    <item
+        android:id="@+id/options7Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="SHIB (Shiba INU)" />
+    <item
+        android:id="@+id/options8Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="ADA (Cardano)" />
+    <item
+        android:id="@+id/options9Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="LUNA (Terra)" />
+    <item
+        android:id="@+id/options10Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="MATIC (Polygon)" />
+    <item
+        android:id="@+id/options11Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="DOT (Polkadot)" />
+</menu>

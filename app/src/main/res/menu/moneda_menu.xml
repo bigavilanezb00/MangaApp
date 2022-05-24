@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/options1Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="EUR (Euro)" />
+
+    <item
+        android:id="@+id/options2Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="MXN (Peso Mexicano)" />
+
+    <item
+        android:id="@+id/options3Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="ARS (Peso Argentino)" />
+
+    <item
+        android:id="@+id/options4Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="GBP (Libra Britanica)" />
+
+    <item
+        android:id="@+id/options5Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="CNY (Yuan Chino)" />
+
+    <item
+        android:id="@+id/options6Fragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="JPY (Yen Japones)" />
+</menu>
